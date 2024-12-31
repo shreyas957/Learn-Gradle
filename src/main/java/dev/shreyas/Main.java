@@ -15,5 +15,6 @@ public class Main {
         BufferedReader bufferedInputStream = new BufferedReader(new InputStreamReader
                 (resourceStream, StandardCharsets.UTF_8));
         System.out.println(bufferedInputStream.readLine());
+        System.out.println("Done!!");
     }
 }
