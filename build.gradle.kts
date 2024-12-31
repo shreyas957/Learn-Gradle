@@ -1,9 +1,10 @@
 plugins {
     id("java")
+    id("pl.allegro.tech.build.axion-release") version "1.18.7"
 }
 
 group = "dev.shreyas"
-version = "1.0-SNAPSHOT"
+version = scmVersion.version
 
 repositories {
     mavenCentral()
